@@ -1,29 +1,25 @@
 <!DOCTYPE html>
+
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Obtenez des identifiants NordVPN aléatoires pour une expérience sécurisée en ligne.">
-    <meta name="keywords" content="NordVPN, identifiants, aléatoire, sécurité en ligne">
-    <meta name="author" content="TRHACKNON">
-    <title>Identifiants NordVPN Aléatoires</title>
-    <link rel="icon" href="/static/trkn.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    
-    <!-- Balises Open Graph pour Facebook -->
-    <meta property="og:title" content="Identifiants NordVPN Aléatoires">
-    <meta property="og:description" content="Obtenez des identifiants NordVPN aléatoires pour une expérience sécurisée en ligne.">
-    <meta property="og:image" content="https://j.top4top.io/p_28095cccv0.jpg"> <!-- Remplacez par l'URL de votre image -->
-    <meta property="og:image:width" content="1200"> <!-- Largeur de l'image -->
-    <meta property="og:image:height" content="630"> <!-- Hauteur de l'image -->
-    <meta property="og:url" content="https://nordvpn-1-m2699714.deta.app"> <!-- Remplacez par l'URL de votre page -->
-
-    <!-- Autres balises Open Graph facultatives -->
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Identifiants NordVPN by Trhacknon">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Obtenez des identifiants NordVPN aléatoires pour une expérience sécurisée en ligne." name="description"/>
+<meta content="NordVPN, identifiants, aléatoire, sécurité en ligne" name="keywords"/>
+<meta content="TRHACKNON" name="author"/>
+<title>Identifiants NordVPN Aléatoires</title>
+<link href="/static/trkn.ico" rel="icon" type="image/x-icon"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
+<meta content="Identifiants NordVPN Aléatoires" property="og:title"/>
+<meta content="Obtenez des identifiants NordVPN aléatoires pour une expérience sécurisée en ligne." property="og:description"/>
+<meta content="https://j.top4top.io/p_28095cccv0.jpg" property="og:image"/> 
+<meta content="1200" property="og:image:width"/> 
+<meta content="630" property="og:image:height"/>
+<meta content="https://nordvpn-1-m2699714.deta.app" property="og:url"/>
+<meta content="website" property="og:type"/>
+<meta content="Identifiants NordVPN by Trhacknon" property="og:site_name"/>
 </head>
-    <style>
-        /* Votre style CSS existant ici */
+<style>
         body {
             font-family: "Courier New", monospace;
             background-color: black;
@@ -72,7 +68,7 @@
             }
         }
         .nord-image {
-            max-width: 40%; /* Ajuster la taille de l'image en fonction de la largeur de l'écran */
+            max-width: 40%;
             margin: 20px auto;
         }
         .trkn-logo {
@@ -102,26 +98,25 @@
             background-color: #FFD700;
         }
     </style>
-</head>
+
 <body>
-    <img class="trkn-logo" src="/static/trkn.png" alt="TRKN Logo">
-    <h1 class="animate__animated animate__fadeIn">Identifiants NordVPN Aléatoires</h1>
-    <img class="nord-image" src="/static/nord.png" alt="Identifiants NordVPN">
-    <p class="highlight">{{ email | safe }}</p>
-    <p class="password">{{ password | safe }}</p>
+<img alt="TRKN Logo" class="trkn-logo" src="/static/trkn.png"/>
+<h1 class="animate__animated animate__fadeIn">Identifiants NordVPN Aléatoires</h1>
+<img alt="Identifiants NordVPN" class="nord-image" src="/static/nord.png"/>
+<p class="highlight">{{ email | safe }}</p>
+<p class="password">{{ password | safe }}</p>
     {% if expiration_date %}
     <p class="expiration">Date d'expiration: {{ expiration_date | safe }}</p>
     {% endif %}
     <p>Utilisez ces identifiants pour une expérience NordVPN passionnante !</p>
-    
-    <div class="premium-container">
-        <p class="premium-text">Accès <strong>Premium</strong></p>
-        <a class="rainbow-button animate__animated animate__bounceIn" href="/premium">Accès Premium</a>
-    </div>
-    <br><br><br>
-    <div class="premium-link">
-        <p>Si vous préférez dépenser de l'argent pour le même résultat :</p>
-        <p><a class="pricing-link" href="https://nordvpn.com/fr/pricing/creator/?coupon=gpexplorer">Obtenez NordVPN Premium</a> | <br><a class="contact-button" href="https://t.me/trhacknon">Contactez-moi sur Telegram</a></p>
-    </div>
+<div class="premium-container">
+<p class="premium-text">Accès <strong>Premium</strong></p>
+<a class="rainbow-button animate__animated animate__bounceIn" href="/premium">Accès Premium</a>
+</div>
+<br/><br/><br/>
+<div class="premium-link">
+<p>Si vous préférez dépenser de l'argent pour le même résultat :</p>
+<p><a class="pricing-link" href="https://nordvpn.com/fr/pricing/creator/?coupon=gpexplorer">Obtenez NordVPN Premium</a> | <br/><a class="contact-button" href="https://t.me/trhacknon">Contactez-moi sur Telegram</a></p>
+</div>
 </body>
 </html>
