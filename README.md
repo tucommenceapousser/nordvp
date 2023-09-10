@@ -1,21 +1,26 @@
 # nordvpn
-## compile version
+
+## Version compilée
 main.bin
-## for deta push
-fork this repo on replit
-```
+
+## Pour les détails sur le push
+Faites un fork de ce repo sur Replit en cliquant sur le bouton ci-dessous :
+
+[![Fork on Replit](https://img.shields.io/badge/Fork%20on-Replit-blue?logo=replit)](https://replit.com/github/tucommenceapousser/nordvp)
+
+```bash
 curl -fsSL https://get.deta.dev/space-cli.sh | sh
 ```
-```
+```bash
 cp /home/runner/.detaspace/bin/space ./
 ```
-```
+```bash
 ./space login
 ```
-```
+```bash
 ./space new
 ```
-```
+```bash
 ./space push
 ```
 the password to access premium area is stored in .env under the name pass
