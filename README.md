@@ -8,6 +8,11 @@ Faites un fork de ce repo sur Replit en cliquant sur le bouton ci-dessous :
 
 [![Fork on Replit](https://img.shields.io/badge/Fork%20on-Replit-blue?logo=replit)](https://replit.com/github/tucommenceapousser/nordvp)
 
+### you can use on replit
+add variable env pass=yourpass
+and run the repl
+
+
 ```bash
 curl -fsSL https://get.deta.dev/space-cli.sh | sh
 ```
