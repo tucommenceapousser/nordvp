@@ -11,7 +11,7 @@ Spacefile
 space
 .space/
 .Python
-.pythonlibs
+.pythonlibs/
 build/
 develop-eggs/
 dist/
