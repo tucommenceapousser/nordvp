@@ -12,6 +12,7 @@ Faites un fork de ce repo sur Replit en cliquant sur le bouton ci-dessous :
 add variable env pass=yourpass
 and run the repl
 
+### for push on deta.space
 
 ```bash
 curl -fsSL https://get.deta.dev/space-cli.sh | sh
