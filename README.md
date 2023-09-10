@@ -41,3 +41,10 @@ add this to the end of Spacefile
         - name: pass
 ```
 and access to your builder on deta.space for set the variable pass
+
+### for push release of your micro ..
+
+Si vous avez besoin d'aide ou souhaitez consulter les dernières versions (releases), vous pouvez visiter [Deta.Space](https://deta.space/builder/).
+
+#### you can directly use my release 
+[myrelease](https://deta.space/discovery/r/wr4w2c2xvnsxhwze).
