@@ -51,3 +51,8 @@ Si vous avez besoin d'aide ou souhaitez consulter les dernières versions (relea
 
 #### you can directly use my release 
 [myrelease](https://deta.space/discovery/r/wr4w2c2xvnsxhwze).
+
+#### for mod the url in html templates you can use ./change.py
+
+![Image 1](sc.jpg)
+![Image 2](sc1.jpg)
